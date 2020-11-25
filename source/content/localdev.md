@@ -75,10 +75,10 @@ Once the container has been started, you can preview the site from the <i classN
 From the **<i className="fa fa-wrench"></i> Develop** tab, you can:
 
 - View the local site from **Open Browser**.
-- View the Site Dasboard on Pantheon from **Open Dashboard**.
+- View the [Site Dashboard](/sites) on Pantheon from **Open Dashboard**.
 - View your local site files from **Open Finder**.
-- SSH into the local site container to run Drush, WP-CLI, or Terminus commands from **Launch Terminal**. Note that this will connect into the container shell, not just the terminal environment for your local computer.
-- View the database container information and optionally enable PhpMyAdmin for it.
+- SSH into the local site container to run [Drush](/drush), [WP-CLI](/wp-cli), or [Terminus](/terminus) commands from **Launch Terminal**. Note that this will connect into the container shell, not just the terminal environment for your local computer.
+- View the database container information and optionally enable [phpMyAdmin](https://www.phpmyadmin.net/) from the [Config](#Config) tab.
 - Enable [MailHog](https://github.com/mailhog/MailHog) to test email from your local site.
 
 ## Use a Local IDE to Develop your Pantheon Site
@@ -107,6 +107,10 @@ After you make changes to your site:
 1. Select the information you want pushed to the Pantheon Development environment
 1. Enter a **Git commit message** that describes the changes made in this particular push
 1. Click **Push**
+
+## Config
+
+From the Config tab for a site, you can initialize tools like [phpMyAdmin](https://www.phpmyadmin.net/) or [MailHog](https://github.com/mailhog/MailHog), enable [CDN](/global-cdn) emulation to test cookies, or enable [Solr](/solr) / [Redis](/redis) for the local site.
 
 ## Advanced Steps
 
